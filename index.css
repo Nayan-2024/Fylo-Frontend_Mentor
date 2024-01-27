@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+/* navbar */
+#content-1{
+    background-color: var(--clr-grey-blue);
+    height: 100vh;
+}
+.nav{
+    display: inline-block;
+    margin: 3rem 1rem 0 4rem;
+}
+.nav img{
+    height: 40px;
+    width: 140px;
+}
+.fylo-nav{
+    display: inline-block;
+    float: right;
+    margin: 2.4rem 4rem 0 0;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    color: var(--saturated-clr);
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    padding: 7px 30px
+}
+/* Import  */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* Varaiables  */
+
+:root{
+    --font-body:'Open Sans', sans-serif;
+    --font-heading: 'Raleway', sans-serif;
+    --clr-primary:hsl(243, 87%, 12%) ;
+    --saturated-clr: hsl(238, 22%, 44%) ;
+    --clr-bright:hsl(224, 93%, 58%) ;
+    --clr-cyan:hsl(170, 45%, 43%) ;
+    --clr-grey-blue:hsl(240, 75%, 98%);
+    --clr-light-blue:hsl(0, 0%, 75%);
+}
